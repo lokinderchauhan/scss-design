@@ -1,0 +1,24 @@
+  @import './variables';
+
+  header {
+      .header-top {
+          background-color: $headerBackground;
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: $headerSeparator;
+
+          height: 45px;
+          padding: 5px;
+      }
+
+      .header-bottom {
+          background-color: $headerBackground;
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: $headerSeparator;
+          height: 45px;
+          padding: 5px;
+
+      }
+
+  }

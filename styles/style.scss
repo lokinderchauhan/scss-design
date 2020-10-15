@@ -1,0 +1,147 @@
+@import './variables';
+@import './header';
+
+.card {
+    margin-top: 15px;
+
+    .card-body {
+        .list-group {
+            .list-group-item {
+                display: flex;
+                flex-direction: row;
+                border: none;
+
+                &.active {
+                    background-color: #F7F8FB;
+                    border-radius: 8px;
+                }
+
+                .icon-div {
+                    border-radius: 30px;
+                    width: 36px;
+                    height: 36px;
+                    box-shadow: 0px 0px 2px #888;
+                    padding: 0.5em 0.6em;
+
+
+                    &.active-notification {
+                        color: white;
+                        display: inline-block;
+                        position: relative;
+
+                        .button-badge {
+                            background-color: #fa3e3e;
+                            border-radius: 20px;
+                            color: white;
+                            padding: 1px 3px;
+                            font-size: 9px;
+                            position: absolute;
+                            top: -4px;
+                            right: -1px;
+                        }
+
+                    }
+                }
+
+                .icon-title {
+                    color: #3A3A3A;
+                    font-family: Avenir;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 16px;
+                    line-height: 22px;
+
+                    /* identical to box height */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 10px;
+
+                    &.refer {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: left;
+                        align-items: flex-start;
+
+                        .ref-title {
+                            color: #2C91FC;
+                            font-family: Avenir;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 16px;
+                            line-height: 22px;
+                            /* identical to box height */
+
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .ref-tag-line {
+                            color: taglineColor;
+                            font-family: Avenir;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+
+
+
+
+
+
+                }
+
+
+                &.profile {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: left;
+                    align-items: flex-start;
+
+                    .profile-icon {
+                        border-radius: 30px;
+                        width: 60px;
+                        height: 60px;
+                        padding: none;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                            border-radius: 50px;
+                            border: 2px solid #00123F;
+                        }
+                    }
+
+                    .profile-title {
+                        color: #00123F;
+                        font-family: Avenir;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 17px;
+                        line-height: 23px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .profile-tag-line {
+                        color: $taglineColor;
+                        font-family: Avenir;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+            }
+        }
+    }
+
+}

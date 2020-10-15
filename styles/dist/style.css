@@ -1,0 +1,130 @@
+header .header-top {
+  background-color: #0017B3;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #001295;
+  height: 45px;
+  padding: 5px;
+}
+header .header-bottom {
+  background-color: #0017B3;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #001295;
+  height: 45px;
+  padding: 5px;
+}
+
+.card {
+  margin-top: 15px;
+}
+.card .card-body .list-group .list-group-item {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.card .card-body .list-group .list-group-item.active {
+  background-color: #F7F8FB;
+  border-radius: 8px;
+}
+.card .card-body .list-group .list-group-item .icon-div {
+  border-radius: 30px;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+.card .card-body .list-group .list-group-item .icon-div.active-notification {
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+.card .card-body .list-group .list-group-item .icon-div.active-notification .button-badge {
+  background-color: #fa3e3e;
+  border-radius: 20px;
+  color: white;
+  padding: 1px 3px;
+  font-size: 9px;
+  position: absolute;
+  top: -4px;
+  right: -1px;
+}
+.card .card-body .list-group .list-group-item .icon-title {
+  color: #3A3A3A;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.card .card-body .list-group .list-group-item .icon-title.refer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.card .card-body .list-group .list-group-item .icon-title.refer .ref-title {
+  color: #2C91FC;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+}
+.card .card-body .list-group .list-group-item .icon-title.refer .ref-tag-line {
+  color: taglineColor;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+.card .card-body .list-group .list-group-item.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+.card .card-body .list-group .list-group-item.profile .profile-icon {
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  padding: none;
+}
+.card .card-body .list-group .list-group-item.profile .profile-icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  border: 2px solid #00123F;
+}
+.card .card-body .list-group .list-group-item.profile .profile-title {
+  color: #00123F;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+.card .card-body .list-group .list-group-item.profile .profile-tag-line {
+  color: #8D97AE;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
